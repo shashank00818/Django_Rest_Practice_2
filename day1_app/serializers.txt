@@ -1,0 +1,22 @@
+Serializers:
+> The data that is made while running the queries in Djnago are "Complex Datatype of Python".
+> The frontend cannot understand these Complex Datatypes.
+> We need to convert Complex Datatype into "Native Datatype" and then send it to frontend in "JSON" or "XML" form.
+> The process of converting Complex to Native datatype is called Serialization.
+Process:
+1. Create an application
+2. Create a model in models.py
+3. Create superuser and add it to admins.py(for accessing and editing the data)
+4. Make file serializers.py and create a serializer class for the model.
+5. Create a view in views.py
+6. create urls.py and add urls
+7. add urls.py into root urls.py
+
+Learnings:
+1. Creating app
+2. Creating models
+3. Creating superuser
+4. adding models to superuser
+5. Creating serializer
+6. Creating views
+7. Making urls
